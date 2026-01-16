@@ -8,9 +8,11 @@
     "test:headed": "playwright test --headed",
     "report": "playwright show-report"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prianti29/playwright-learning-journey-udemy.git"
+  },
+  "homepage": "https://automationexercise.com/",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.8"

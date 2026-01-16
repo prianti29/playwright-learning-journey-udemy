@@ -2,6 +2,11 @@
 
 This repository is dedicated to learning and practicing end-to-end (E2E) testing using **Playwright**. It contains basic test scripts for web automation, specifically focusing on login workflows and browser context handling.
 
+## 🌐 Target Website
+
+- **Name:** Automation Exercise
+- **URL:** [https://automationexercise.com/](https://automationexercise.com/)
+
 ## 🛠️ Tech Stack
 
 - **Framework:** [Playwright](https://playwright.dev/)

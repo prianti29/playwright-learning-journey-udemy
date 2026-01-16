@@ -7,7 +7,7 @@ test("Browser Context Playwright Test", async ({ browser }) => {
 });
 
 test("Login with Correct Credentials", async ({ page }) => {
-     await page.goto("https://automationexercise.com/login");
+     await page.goto("/login");
      //get title
      console.log(await page.title());
      await expect(page).toHaveTitle("Automation Exercise - Signup / Login");
@@ -25,7 +25,7 @@ test("Login with Correct Credentials", async ({ page }) => {
 
 
 test("Login with InCorrect Credentials", async ({ page }) => {
-     await page.goto("https://automationexercise.com/login");
+     await page.goto("/login");
      //get title
      console.log(await page.title());
      await expect(page).toHaveTitle("Automation Exercise - Signup / Login");
