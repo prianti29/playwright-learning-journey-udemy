@@ -2,25 +2,25 @@
 
 This repository is dedicated to learning and practicing end-to-end (E2E) testing using **Playwright**. It contains basic test scripts for web automation, specifically focusing on login workflows and browser context handling.
 
-## 🌐 Target Website
+## Target Website
 
 - **Name:** Automation Exercise
 - **URL:** [https://automationexercise.com/](https://automationexercise.com/)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** [Playwright](https://playwright.dev/)
 - **Language:** JavaScript
 - **Test Runner:** Playwright Test
 
-## 📂 Project Structure
+## Project Structure
 
 - `tests/`: Contains the test specification files.
   - `basic.spec.js`: Basic login and browser context tests.
 - `playwright.config.js`: Configuration for Playwright (browser, timeouts, reporters).
 - `package.json`: Project dependencies and scripts.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    npx playwright install
    ```
 
-## 🧪 Running Tests
+## Running Tests
 
 - **Run all tests:**
   ```bash
@@ -66,7 +66,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
   npx playwright show-report
   ```
 
-## 📝 Features Covered
+## Features Covered
 
 - Browser Context and Page management.
 - Locating elements using Xpath, CSS, and Playwright Roles.
